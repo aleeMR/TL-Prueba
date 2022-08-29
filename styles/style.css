@@ -107,6 +107,11 @@ p {
   text-align: center;
 }
 
+.contact-list h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
 .project-desciption {
   padding: 120px 60px;
 }
