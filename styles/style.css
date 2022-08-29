@@ -117,6 +117,14 @@ p {
   text-align: center;
 }
 
+.contact-list p a {
+  color: var(--branding-color);
+}
+
+.contact-list p a:visited {
+  color: var(--branding-color);
+}
+
 .projects-section {
   color: var(--color-auxiliar);
 }
@@ -127,6 +135,10 @@ p {
 
 .logo {
   max-height: 40px;
+}
+
+.nav-container {
+  background-color: var(--back-auxiliar);
 }
 
 nav {
@@ -157,12 +169,13 @@ nav li.active a {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 60px 0 0;
+  background-color: var(--back-auxiliar);
 }
 
 footer .contact-box {
   background: var(--secondary-color);
-  padding: 30px 120px;
+  padding: 40px 120px 10px;
   border-radius: 10px;
 }
 
@@ -173,7 +186,7 @@ footer .contact-box p {
 footer .email-link {
   text-decoration: none;
   color: var(--color-auxiliar);
-  font-size: 18px;
+  font-size: 16px;
 }
 
 footer .email-link:hover {
@@ -181,7 +194,7 @@ footer .email-link:hover {
 }
 
 footer .social-links {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 footer .social-links a {
