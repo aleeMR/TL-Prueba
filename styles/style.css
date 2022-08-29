@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #a958ab;
+  --branding-color: #a35da4;
   --color-auxiliar: #f9f7fe;
   --back-primary: #252238;
   --heading-font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -100,6 +100,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.work-list h1 {
+  font-size: 50px;
+  text-align: center;
 }
 
 .project-desciption {
