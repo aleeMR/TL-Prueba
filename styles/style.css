@@ -2,6 +2,7 @@
   --branding-color: #a35da4;
   --color-auxiliar: #f9f7fe;
   --back-primary: #252238;
+  --back-auxiliar: #1E1B32;
   --heading-font-family: 'Raleway', Arial, Helvetica, sans-serif;
   --default-font-family: "Montserrat", sans-serif;
 }
@@ -38,7 +39,7 @@ p {
 }
 
 .hero {
-  background: var(--color-auxiliar);
+  background: var(--back-auxiliar);
   text-align: center;
   padding: 160px 20px;
 }
@@ -102,6 +103,10 @@ p {
   padding: 15px 30px;
 }
 
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+}
+
 .work-list h1 {
   font-size: 50px;
   text-align: center;
@@ -114,6 +119,37 @@ p {
 
 .project-desciption {
   padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-auxiliar);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
