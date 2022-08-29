@@ -117,6 +117,10 @@ p {
   text-align: center;
 }
 
+.projects-section {
+  color: var(--color-auxiliar);
+}
+
 .project-desciption {
   padding: 120px 60px;
 }
